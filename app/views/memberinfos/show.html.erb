@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @memberinfo.name %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%=h @memberinfo.password %>
+</p>
+
+<p>
+  <b>Salt:</b>
+  <%=h @memberinfo.salt %>
+</p>
+
+
+<%= link_to 'Edit', edit_memberinfo_path(@memberinfo) %> |
+<%= link_to 'Back', memberinfos_path %>

@@ -1,0 +1,24 @@
+<h1>Listing member_infos</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Password</th>
+    <th>Street</th>
+  </tr>
+
+<% @member_infos.each do |member_info| %>
+  <tr>
+    <td><%=h member_info.name %></td>
+    <td><%=h member_info.password %></td>
+    <td><%=h member_info.street_id %></td>
+    <td><%= link_to 'Show', member_info %></td>
+    <td><%= link_to 'Edit', edit_member_info_path(member_info) %></td>
+    <td><%= link_to 'Destroy', member_info, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New member_info', new_member_info_path %>

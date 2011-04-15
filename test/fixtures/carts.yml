@@ -1,0 +1,21 @@
+# == Schema Information
+# Schema version: 20110412060544
+#
+# Table name: carts
+#
+#  id         :integer(4)      not null, primary key
+#  cart_no    :string(255)
+#  cart_date  :datetime
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  cart_no: MyString
+  cart_date: 2011-03-21 21:29:13
+
+two:
+  cart_no: MyString
+  cart_date: 2011-03-21 21:29:13

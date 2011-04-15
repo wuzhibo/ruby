@@ -1,0 +1,2995 @@
+/!\ FAILSAFE /!\  Sat Mar 12 17:52:53 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 17:53:00 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:05:52 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:05:54 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:05:55 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:05:55 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:05:55 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:05:56 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:05:56 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:06:02 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:06:03 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:06:03 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Mar 12 18:06:03 +0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /var/lib/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:61:in `mysql_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /var/lib/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/head.rb:9:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/methodoverride.rb:24:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `synchronize'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/lock.rb:11:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /var/lib/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:47:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `each'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/urlmap.rb:41:in `call'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/content_length.rb:13:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/chunked.rb:15:in `call'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:67:in `process'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /var/lib/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /var/lib/gems/1.8/gems/rack-1.1.1/lib/rack/handler/mongrel.rb:38:in `run'
+    /var/lib/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.6ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOrderLists (20110312095701)
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE TABLE `order_lists` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `order_no` varchar(255), `order_date` date, `state` int(11), `user_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110312095701')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `order_lists`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-12 20:10:13) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (0.3ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+Completed in 21ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-12 20:10:16) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#new (for 127.0.0.1 at 2011-03-12 20:10:29) [GET]
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Rendering template within layouts/order_lists
+Rendering order_lists/new
+Completed in 20ms (View: 16, DB: 1) | 200 OK [http://localhost/order_lists/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-12 20:42:07) [GET]
+
+ActionController::RoutingError (No route matches "/rubb" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mProduct Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'ruby_development.products' doesn't exist: SHOW FIELDS FROM `products`[0m
+  [4;35;1mOrderList Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOrderLists (20110312095701)
+Migrating to CreateProducts (20110312145323)
+  [4;36;1mSQL (2.1ms)[0m   [0;1mCREATE TABLE `products` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110312145323')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `order_lists`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `order_lists`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mProduct Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mOrderList Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProduct Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (25.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 19:52:05) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (43.5ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+Completed in 77ms (View: 16, DB: 69) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#new (for 127.0.0.1 at 2011-03-16 19:52:07) [GET]
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Rendering template within layouts/order_lists
+Rendering order_lists/new
+Completed in 23ms (View: 19, DB: 1) | 200 OK [http://localhost/order_lists/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#create (for 127.0.0.1 at 2011-03-16 19:52:15) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"GuEuueM5pmySwx/KBpXPnC88yhPg8fknoToOph6qt6U=", "order_list"=>{"order_date(2i)"=>"3", "order_date(3i)"=>"16", "user_id"=>"e", "order_no"=>"e3", "state"=>"e", "order_date(1i)"=>"2011"}}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mOrderList Create (37.1ms)[0m   [0;1mINSERT INTO `order_lists` (`order_date`, `created_at`, `updated_at`, `user_id`, `order_no`, `state`) VALUES('2011-03-16', '2011-03-16 11:52:16', '2011-03-16 11:52:16', 0, 'e3', 0)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/order_lists/1
+Completed in 61ms (DB: 39) | 302 Found [http://localhost/order_lists]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 19:52:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mOrderList Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (2.9ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 1) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 14ms (View: 6, DB: 4) | 200 OK [http://localhost/order_lists/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 19:52:34) [GET]
+  [4;36;1mOrderList Load (0.2ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/order_lists]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#new (for 127.0.0.1 at 2011-03-16 19:52:37) [GET]
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Rendering template within layouts/order_lists
+Rendering order_lists/new
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/order_lists/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#create (for 127.0.0.1 at 2011-03-16 19:52:46) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"GuEuueM5pmySwx/KBpXPnC88yhPg8fknoToOph6qt6U=", "order_list"=>{"order_date(2i)"=>"3", "order_date(3i)"=>"16", "user_id"=>"e", "order_no"=>"wuzhi", "state"=>"e", "order_date(1i)"=>"2011"}}
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrderList Create (0.2ms)[0m   [0mINSERT INTO `order_lists` (`order_date`, `created_at`, `updated_at`, `user_id`, `order_no`, `state`) VALUES('2011-03-16', '2011-03-16 11:52:46', '2011-03-16 11:52:46', 0, 'wuzhi', 0)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/order_lists/2
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/order_lists]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 19:52:46) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mOrderList Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mOrderList Load (0.2ms)[0m   [0;1mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 2) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/order_lists/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index to xml (for 127.0.0.1 at 2011-03-16 19:59:37) [GET]
+  [4;35;1mOrderList Load (1.3ms)[0m   [0mSELECT * FROM `order_lists` [0m
+  [4;36;1mOrderList Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 16ms (View: 5, DB: 2) | 200 OK [http://localhost/order_lists.xml]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 19:59:52) [GET]
+
+ActionController::RoutingError (No route matches "/order_lists/.xml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index to xml (for 127.0.0.1 at 2011-03-16 19:59:57) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 62ms (View: 5, DB: 1) | 200 OK [http://localhost/order_lists.xml]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 20:00:33) [GET]
+  [4;35;1mOrderList Load (3.0ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 22ms (View: 13, DB: 6) | 200 OK [http://localhost/order_lists]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index to xml (for 127.0.0.1 at 2011-03-16 20:00:40) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/order_lists.xml]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#new (for 127.0.0.1 at 2011-03-16 20:00:49) [GET]
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Rendering template within layouts/order_lists
+Rendering order_lists/new
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/order_lists/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#create (for 127.0.0.1 at 2011-03-16 20:00:59) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"GuEuueM5pmySwx/KBpXPnC88yhPg8fknoToOph6qt6U=", "order_list"=>{"order_date(2i)"=>"3", "order_date(3i)"=>"16", "user_id"=>"wuzh", "order_no"=>"wwuzhi", "state"=>"wu", "order_date(1i)"=>"2011"}}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mOrderList Create (0.2ms)[0m   [0;1mINSERT INTO `order_lists` (`order_date`, `created_at`, `updated_at`, `user_id`, `order_no`, `state`) VALUES('2011-03-16', '2011-03-16 12:00:59', '2011-03-16 12:00:59', 0, 'wwuzhi', 0)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/order_lists/3
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/order_lists]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 20:00:59) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.2ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/order_lists/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#edit (for 127.0.0.1 at 2011-03-16 20:01:02) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/edit
+Completed in 18ms (View: 13, DB: 1) | 200 OK [http://localhost/order_lists/3/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#update (for 127.0.0.1 at 2011-03-16 20:01:09) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"GuEuueM5pmySwx/KBpXPnC88yhPg8fknoToOph6qt6U=", "order_list"=>{"order_date(2i)"=>"3", "order_date(3i)"=>"16", "user_id"=>"wu", "order_no"=>"wwuzhi", "state"=>"wu", "order_date(1i)"=>"2011"}, "id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/order_lists/3
+Completed in 7ms (DB: 1) | 302 Found [http://localhost/order_lists/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 20:01:09) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/order_lists/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#edit (for 127.0.0.1 at 2011-03-16 20:01:45) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/edit
+Completed in 67ms (View: 63, DB: 1) | 200 OK [http://localhost/order_lists/3/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#update (for 127.0.0.1 at 2011-03-16 20:01:47) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"GuEuueM5pmySwx/KBpXPnC88yhPg8fknoToOph6qt6U=", "order_list"=>{"order_date(2i)"=>"3", "order_date(3i)"=>"16", "user_id"=>"0", "order_no"=>"wwuzhi", "state"=>"0", "order_date(1i)"=>"2011"}, "id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/order_lists/3
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/order_lists/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 20:01:47) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 14ms (View: 2, DB: 1) | 200 OK [http://localhost/order_lists/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:02:55) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting '}'
+...was successfully updated.')  ,:alert=>'wuzhibo'}
+                              ^):
+  
+
+Rendered rescues/_trace (23.3ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:02:58) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting '}'
+...was successfully updated.')  ,:alert=>'wuzhibo'}
+                              ^):
+  
+
+Rendered rescues/_trace (22.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:04:46) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+...html { redirect_to { :action=>'show' } ,:alert=>'wuzhibo' #(...
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting '}'
+...irect_to { :action=>'show' } ,:alert=>'wuzhibo' #(@order_lis...
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:65: syntax error, unexpected kELSE, expecting '}'
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:68: syntax error, unexpected kEND, expecting '}'
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:83: syntax error, unexpected kEND, expecting '}'):
+  
+
+Rendered rescues/_trace (22.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:04:49) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+...html { redirect_to { :action=>'show' } ,:alert=>'wuzhibo' #(...
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting '}'
+...irect_to { :action=>'show' } ,:alert=>'wuzhibo' #(@order_lis...
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:65: syntax error, unexpected kELSE, expecting '}'
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:68: syntax error, unexpected kEND, expecting '}'
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:83: syntax error, unexpected kEND, expecting '}'):
+  
+
+Rendered rescues/_trace (53.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:05:47) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting '}'
+...ect_to { { :action=>'show' } ,:alert=>'wuzhibo'} #(@order_li...
+                              ^):
+  
+
+Rendered rescues/_trace (22.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:05:49) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting '}'
+...ect_to { { :action=>'show' } ,:alert=>'wuzhibo'} #(@order_li...
+                              ^):
+  
+
+Rendered rescues/_trace (22.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:05:49) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting '}'
+...ect_to { { :action=>'show' } ,:alert=>'wuzhibo'} #(@order_li...
+                              ^):
+  
+
+Rendered rescues/_trace (89.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:05:49) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting '}'
+...ect_to { { :action=>'show' } ,:alert=>'wuzhibo'} #(@order_li...
+                              ^):
+  
+
+Rendered rescues/_trace (27.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:06:07) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+...t.html  redirect_to{ :action=>'show' } ,:alert=>'wuzhibo' #(...
+                              ^):
+  
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:06:08) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+...t.html  redirect_to{ :action=>'show' } ,:alert=>'wuzhibo' #(...
+                              ^):
+  
+
+Rendered rescues/_trace (22.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:06:08) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+...t.html  redirect_to{ :action=>'show' } ,:alert=>'wuzhibo' #(...
+                              ^):
+  
+
+Rendered rescues/_trace (81.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:06:08) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+...t.html  redirect_to{ :action=>'show' } ,:alert=>'wuzhibo' #(...
+                              ^):
+  
+
+Rendered rescues/_trace (22.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:06:22) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+       redirect_to{ :action=>'show' } ,:alert=>'wuzhibo' #(...
+                             ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+...direct_to{ :action=>'show' } ,:alert=>'wuzhibo' #(@order_lis...
+                              ^):
+  
+
+Rendered rescues/_trace (21.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:06:23) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+       redirect_to{ :action=>'show' } ,:alert=>'wuzhibo' #(...
+                             ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+...direct_to{ :action=>'show' } ,:alert=>'wuzhibo' #(@order_lis...
+                              ^):
+  
+
+Rendered rescues/_trace (22.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:06:23) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+       redirect_to{ :action=>'show' } ,:alert=>'wuzhibo' #(...
+                             ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+...direct_to{ :action=>'show' } ,:alert=>'wuzhibo' #(@order_lis...
+                              ^):
+  
+
+Rendered rescues/_trace (90.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:06:24) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+       redirect_to{ :action=>'show' } ,:alert=>'wuzhibo' #(...
+                             ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+...direct_to{ :action=>'show' } ,:alert=>'wuzhibo' #(@order_lis...
+                              ^):
+  
+
+Rendered rescues/_trace (23.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:07:30) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                                        ^):
+  
+
+Rendered rescues/_trace (22.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:07:31) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                                        ^):
+  
+
+Rendered rescues/_trace (24.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:07:31) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                                        ^):
+  
+
+Rendered rescues/_trace (81.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:07:31) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                                        ^):
+  
+
+Rendered rescues/_trace (21.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:07:32) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                                        ^):
+  
+
+Rendered rescues/_trace (22.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:07:32) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                                        ^):
+  
+
+Rendered rescues/_trace (21.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2011-03-16 20:07:32) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected tASSOC, expecting '}'
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                              ^
+/home/administrator/ruby/app/controllers/order_lists_controller.rb:63: syntax error, unexpected ',', expecting kEND
+        redirect_to{ :action=>'show' } ,:alert=>"wuzhibo"
+                                        ^):
+  
+
+Rendered rescues/_trace (98.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 20:08:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/order_lists/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 20:08:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/order_lists/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 20:08:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/order_lists/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#edit (for 127.0.0.1 at 2011-03-16 20:08:32) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/edit
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/order_lists/3/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#update (for 127.0.0.1 at 2011-03-16 20:08:34) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"GuEuueM5pmySwx/KBpXPnC88yhPg8fknoToOph6qt6U=", "order_list"=>{"order_date(2i)"=>"3", "order_date(3i)"=>"16", "user_id"=>"0", "order_no"=>"wwuzhi", "state"=>"0", "order_date(1i)"=>"2011"}, "id"=>"3"}
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/order_lists/3?alert=wuzhibo
+
+ActionController::DoubleRenderError (Can only render or redirect once per action):
+  app/controllers/order_lists_controller.rb:64:in `update'
+  app/controllers/order_lists_controller.rb:61:in `update'
+
+Rendered rescues/_trace (28.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-16 21:24:22) [GET]
+  Parameters: {"id"=>"show_list"}
+  [4;36;1mOrderList Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.2ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find OrderList with ID=show_list):
+  app/controllers/order_lists_controller.rb:16:in `show'
+
+Rendered rescues/_trace (78.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:26:26) [GET]
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:33) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo/index." with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:37) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:42) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:45) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:45) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:45) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:46) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:46) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 21:28:46) [GET]
+
+ActionController::RoutingError (No route matches "/wuzhibo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#index (for 127.0.0.1 at 2011-03-16 21:32:59) [GET]
+Redirected to http://localhost:3000/order/show_order
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/order]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:32:59) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#index (for 127.0.0.1 at 2011-03-16 21:33:21) [GET]
+Redirected to http://localhost:3000/order/show_order
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/order/index]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:33:21) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:15) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:16) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:17) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:17) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:17) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:17) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:32) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:32) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:32) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:33) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:33) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:33) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:33) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderController#show_order (for 127.0.0.1 at 2011-03-16 21:34:34) [GET]
+
+ActionController::UnknownAction (No action responded to show_order. Actions: edit, index, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:03:51) [GET]
+  [4;36;1mOrderList Load (0.3ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 25ms (View: 21, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:03:54) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:03:59) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:03:59) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 20ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:03:59) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:03:59) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (7.0ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 30ms (View: 19, DB: 7) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:00) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:01) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 23ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:01) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:02) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:02) [GET]
+  [4;36;1mOrderList Load (11.6ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 34ms (View: 17, DB: 12) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:02) [GET]
+  [4;36;1mOrderList Load (12.0ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 27ms (View: 10, DB: 13) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:02) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:03) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:03) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:03) [GET]
+  [4;36;1mOrderList Load (0.3ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:04) [GET]
+  [4;36;1mOrderList Load (0.2ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:04) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:04) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:04) [GET]
+  [4;36;1mOrderList Load (0.7ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 15ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:04) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 42ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:16) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:16) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:17) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:17) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (0.2ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 78ms (View: 74, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:17) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:17) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (18.4ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 32ms (View: 10, DB: 19) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-16 22:04:17) [GET]
+  Parameters: {"atction"=>"index"}
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 33ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (25.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (42.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mProduct Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (54.0ms)[0m   [0;1mSELECT * FROM `products` [0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProduct Create (14.2ms)[0m   [0mINSERT INTO `products` (`name`, `created_at`, `updated_at`) VALUES('wuzhibo', '2011-03-21 13:15:26', '2011-03-21 13:15:26')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM `products` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM `products` [0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mProduct Update (26.7ms)[0m   [0mUPDATE `products` SET `name` = 'wuzhaodi' [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM `products` LIMIT 1[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM `products` LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-21 21:22:56) [GET]
+  [4;36;1mOrderList Load (0.3ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 71ms (View: 66, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#edit (for 127.0.0.1 at 2011-03-21 21:23:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (24.6ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 1) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/edit
+Completed in 44ms (View: 15, DB: 25) | 200 OK [http://localhost/order_lists/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#update (for 127.0.0.1 at 2011-03-21 21:25:34) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"+ZVRUExtxoKK1GCVfZNdtYeQI48QDwOAA69AZcVggks=", "order_list"=>{"order_date(2i)"=>"3", "order_date(3i)"=>"16", "user_id"=>"0", "order_no"=>"e3", "state"=>"0", "order_date(1i)"=>"2008"}, "id"=>"1"}
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 1) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mOrderList Update (20.1ms)[0m   [0mUPDATE `order_lists` SET `updated_at` = '2011-03-21 13:25:34', `order_date` = '2008-03-16' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/order_lists/1
+Completed in 29ms (DB: 22) | 302 Found [http://localhost/order_lists/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-21 21:25:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mOrderList Load (0.2ms)[0m   [0;1mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 1) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/order_lists/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mOrderList Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOrderLists (20110312095701)
+Migrating to CreateProducts (20110312145323)
+Migrating to CreateCarts (20110321132913)
+  [4;36;1mSQL (25.1ms)[0m   [0;1mCREATE TABLE `carts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `cart_no` varchar(255), `cart_date` datetime, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110321132913')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `carts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `carts`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `carts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `order_lists`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `order_lists`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `products`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `products`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#edit (for 127.0.0.1 at 2011-03-21 21:30:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mOrderList Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 1) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/edit
+Completed in 15ms (View: 11, DB: 1) | 200 OK [http://localhost/order_lists/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:10) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:13) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:40) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:41) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:41) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:42) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:42) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:55) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:57) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:58) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:58) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:59) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:59) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:59) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:30:59) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:31:00) [GET]
+
+ActionController::RoutingError (No route matches "/cart" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CartsController#index (for 127.0.0.1 at 2011-03-21 21:31:20) [GET]
+  [4;36;1mCart Load (0.3ms)[0m   [0;1mSELECT * FROM `carts` [0m
+Rendering template within layouts/carts
+Rendering carts/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/carts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CartsController#new (for 127.0.0.1 at 2011-03-21 21:31:22) [GET]
+  [4;35;1mCart Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `carts`[0m
+Rendering template within layouts/carts
+Rendering carts/new
+Completed in 69ms (View: 65, DB: 1) | 200 OK [http://localhost/carts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOrderLists (20110312095701)
+Migrating to CreateProducts (20110312145323)
+Migrating to CreateCarts (20110321132913)
+Migrating to CreateMemberinfos (20110321133403)
+  [4;36;1mSQL (23.9ms)[0m   [0;1mCREATE TABLE `memberinfos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `password` varchar(255), `salt` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110321133403')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `carts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `carts`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `carts`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `memberinfos`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `memberinfos`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `memberinfos`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `order_lists`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `order_lists`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `products`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MemberinfosController#index (for 127.0.0.1 at 2011-03-21 21:35:15) [GET]
+  [4;36;1mMemberinfo Load (0.3ms)[0m   [0;1mSELECT * FROM `memberinfos` [0m
+Rendering template within layouts/memberinfos
+Rendering memberinfos/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/memberinfos]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MemberinfosController#new (for 127.0.0.1 at 2011-03-21 21:35:18) [GET]
+  [4;35;1mMemberinfo Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+Rendering template within layouts/memberinfos
+Rendering memberinfos/new
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/memberinfos/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MemberinfosController#create (for 127.0.0.1 at 2011-03-21 21:35:20) [POST]
+  Parameters: {"commit"=>"Create", "memberinfo"=>{"salt"=>"", "name"=>"", "password"=>""}, "authenticity_token"=>"+ZVRUExtxoKK1GCVfZNdtYeQI48QDwOAA69AZcVggks="}
+  [4;36;1mMemberinfo Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `memberinfos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMemberinfo Create (0.3ms)[0m   [0;1mINSERT INTO `memberinfos` (`name`, `salt`, `created_at`, `updated_at`, `password`) VALUES('', '', '2011-03-21 13:35:20', '2011-03-21 13:35:20', '')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/memberinfos/1
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/memberinfos]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MemberinfosController#show (for 127.0.0.1 at 2011-03-21 21:35:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMemberinfo Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `memberinfos`[0m
+  [4;35;1mMemberinfo Load (0.3ms)[0m   [0mSELECT * FROM `memberinfos` WHERE (`memberinfos`.`id` = 1) [0m
+Rendering template within layouts/memberinfos
+Rendering memberinfos/show
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://localhost/memberinfos/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MemberinfosController#index (for 127.0.0.1 at 2011-03-21 21:35:21) [GET]
+  [4;36;1mMemberinfo Load (0.2ms)[0m   [0;1mSELECT * FROM `memberinfos` [0m
+Rendering template within layouts/memberinfos
+Rendering memberinfos/index
+  [4;35;1mMemberinfo Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/memberinfos]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-21 21:50:26) [GET]
+  [4;36;1mOrderList Load (0.2ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 23ms (View: 19, DB: 1) | 200 OK [http://localhost/order_lists]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#show (for 127.0.0.1 at 2011-03-21 21:50:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` WHERE (`order_lists`.`id` = 1) [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/show
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/order_lists/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-03-21 21:50:31) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/order_lists]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-21 21:50:37) [GET]
+
+ActionController::RoutingError (No route matches "/m/member_manger" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mProduct Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mOrderList Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mCart Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `carts`[0m
+  [4;35;1mMemberinfo Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+  [4;36;1mMemberInfo Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'ruby_development.member_infos' doesn't exist: SHOW FIELDS FROM `member_infos`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOrderLists (20110312095701)
+Migrating to CreateProducts (20110312145323)
+Migrating to CreateCarts (20110321132913)
+Migrating to CreateMemberinfos (20110321133403)
+Migrating to CreateMemberInfos (20110321133618)
+  [4;36;1mSQL (2.3ms)[0m   [0;1mCREATE TABLE `member_infos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `password` varchar(255), `street_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110321133618')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `carts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `carts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `carts`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW FIELDS FROM `member_infos`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `member_infos`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `member_infos`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `memberinfos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `memberinfos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `order_lists`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `order_lists`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `products`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mProduct Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mOrderList Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mCart Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `carts`[0m
+  [4;35;1mMemberinfo Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+  [4;36;1mMemberInfo Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `member_infos`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mMemberInfo Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `member_infos`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOrderLists (20110312095701)
+Migrating to CreateProducts (20110312145323)
+Migrating to CreateCarts (20110321132913)
+Migrating to CreateMemberinfos (20110321133403)
+Migrating to CreateMemberInfos (20110321133618)
+Migrating to CreateShipments (20110412060544)
+  [4;36;1mSQL (3.3ms)[0m   [0;1mCREATE TABLE `shipments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `address` varchar(255), `city_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110412060544')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `carts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `carts`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `carts`[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mSHOW FIELDS FROM `member_infos`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `member_infos`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `member_infos`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `memberinfos`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `memberinfos`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `order_lists`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `order_lists`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `products`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `shipments`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `shipments`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `shipments`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mShipment Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `shipments`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (62.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOrderLists (20110312095701)
+Migrating to CreateProducts (20110312145323)
+Migrating to CreateCarts (20110321132913)
+Migrating to CreateMemberinfos (20110321133403)
+Migrating to CreateMemberInfos (20110321133618)
+Migrating to CreateShipments (20110412060544)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `carts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `carts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `carts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `member_infos`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `member_infos`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `member_infos`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `memberinfos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `memberinfos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `order_lists`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `products`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `shipments`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `shipments`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `shipments`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateOrderLists (20110312095701)
+Migrating to CreateProducts (20110312145323)
+Migrating to CreateCarts (20110321132913)
+Migrating to CreateMemberinfos (20110321133403)
+Migrating to CreateMemberInfos (20110321133618)
+Migrating to CreateShipments (20110412060544)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW FIELDS FROM `carts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `carts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `carts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `member_infos`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `member_infos`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `member_infos`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `memberinfos`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `memberinfos`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `order_lists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `order_lists`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `products`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `products`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW FIELDS FROM `shipments`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mdescribe `shipments`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `shipments`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mProduct Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `products`[0m
+  [4;35;1mOrderList Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+  [4;36;1mCart Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `carts`[0m
+  [4;35;1mMemberinfo Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `memberinfos`[0m
+  [4;36;1mMemberInfo Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `member_infos`[0m
+  [4;35;1mShipment Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `shipments`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProduct Load (38.1ms)[0m   [0;1mSELECT * FROM `products` [0m
+  [4;35;1mProduct Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `products`[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM `products` [0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM `products` LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mProduct Delete all (45.0ms)[0m   [0mDELETE FROM `products` WHERE (`id` IN (1)) [0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM `products` LIMIT 1[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM `products` LIMIT 1[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM `products` LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:25:22) [GET]
+  [4;36;1mOrderList Load (0.3ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 39ms (View: 34, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#new (for 127.0.0.1 at 2011-04-12 18:25:29) [GET]
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Rendering template within layouts/order_lists
+Rendering order_lists/new
+Completed in 21ms (View: 16, DB: 1) | 200 OK [http://localhost/order_lists/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:25) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 17ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:27) [GET]
+  [4;35;1mOrderList Load (0.2ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:28) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:29) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:31) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:31) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:32) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:32) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:32) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:33) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:33) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:33) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:34) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:34) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:35) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:35) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:36) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:36) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:36) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 17ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:36) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:37) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:37) [GET]
+  [4;35;1mOrderList Load (0.1ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-12 18:26:42) [GET]
+  [4;35;1mOrderList Load (8.9ms)[0m   [0mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;36;1mOrderList Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `order_lists`[0m
+Completed in 65ms (View: 11, DB: 10) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-14 15:12:17) [GET]
+  [4;36;1mOrderList Load (0.7ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 29ms (View: 24, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OrderListsController#index (for 127.0.0.1 at 2011-04-14 15:12:24) [GET]
+  [4;36;1mOrderList Load (0.1ms)[0m   [0;1mSELECT * FROM `order_lists` [0m
+Rendering template within layouts/order_lists
+Rendering order_lists/index
+  [4;35;1mOrderList Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `order_lists`[0m
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/]

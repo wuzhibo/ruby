@@ -1,0 +1,23 @@
+<p>
+  <b>Order no:</b>
+  <%=h @order_list.order_no %>
+</p>
+
+<p>
+  <b>Order date:</b>
+  <%=h @order_list.order_date %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%=h @order_list.state %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%=h @order_list.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_list_path(@order_list) %> |
+<%= link_to 'Back', order_lists_path %>

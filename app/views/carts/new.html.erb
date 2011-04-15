@@ -1,0 +1,19 @@
+<h1>New cart</h1>
+
+<% form_for(@cart) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :cart_no %><br />
+    <%= f.text_field :cart_no %>
+  </p>
+  <p>
+    <%= f.label :cart_date %><br />
+    <%= f.datetime_select :cart_date %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', carts_path %>
